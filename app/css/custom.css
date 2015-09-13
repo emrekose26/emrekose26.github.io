@@ -1,0 +1,156 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 65px;
+  line-height: 72px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.container {
+  background-color: #fff;
+  min-height: 615px;
+  margin: 20px auto;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+.container .row .personel {
+  min-height: 280px;
+  width: 100%;
+  margin-top: 50px;
+  border-bottom: 1px solid #ededed;
+}
+.container .row .personel .photo img {
+  border-width: 1px;
+  border-style: solid;
+  width: 232px;
+  height: 232px;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50%;
+}
+.container .row .personel .title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.container .row .personel .sub-title {
+  font-weight: 300;
+  margin: 0;
+  line-height: 34px;
+}
+.container .row .personel .social ul {
+  padding-left: 0;
+}
+.container .row .personel .social ul a {
+  color: #333;
+}
+.container .row .personel .social ul a li {
+  height: 50px;
+  width: 50px;
+  list-style-type: none;
+  float: left;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  font-size: 25px;
+  padding: 6px 15px;
+}
+.container .row .personel .social ul a .face:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+.container .row .personel .social ul a .twitter:hover {
+  background-color: #00aced;
+  color: #fff;
+}
+.container .row .personel .social ul a .linkedin:hover {
+  background-color: #007bb6;
+  color: #fff;
+}
+.container .row .personel .social ul a .github:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container .row .personel .social ul a .insta:hover {
+  background-color: #517fa4;
+  color: #fff;
+}
+.container .row .menu {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.container .row .menu a {
+  text-decoration: none;
+  color: #333;
+}
+.container .row .menu .menu-li {
+  display: inline-block;
+  width: 170px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container .row .menu .menu-li .foto img {
+  vertical-align: middle;
+}
+.container .row .menu .menu-li .name {
+  margin-top: 13px;
+  display: block;
+  text-align: center;
+}
+.container .row header {
+  height: 150px;
+  width: 100%;
+  border-bottom: 1px solid #c6c6c6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.container .row header h2 {
+  font-size: 41px;
+  line-height: 48px;
+  font-weight: 600;
+}
+.container .row header .logo-page {
+  margin-right: 30px;
+  float: left;
+}
+.container .row header .title {
+  margin: 0;
+}
+.container .row header .sub-title {
+  margin: 0;
+  font-weight: 300;
+}
+.container .row .btn-close {
+  width: 36px;
+  height: 36px;
+  margin-top: 16px;
+  margin-right: 16px;
+  background-image: url("../img/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+.container .row .btn-close:hover {
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.container .row .hover-animate {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=custom.css.map */

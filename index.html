@@ -1,1 +1,37 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" ng-app="personelPageApp">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="front-end and web app developer">
+	<title>Emre Köse | Personel Page</title>
+
+	<!--Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+	<!--Styles-->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="app/css/fakeloader.css">
+	<link rel="stylesheet" href="bower_components/normalize-css/">
+	<link rel="stylesheet" href="app/css/custom.css">
+
+	<!--Scripts-->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="app/js/fakeLoader.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="app/js/app.js"></script>
+	<script src="app/js/controller.js"></script>
+	
+</head>
+<body>
+	<div class="fakeloader"></div>
+	<div class="container">
+		<div ng-view></div>
+	</div><!--.container end-->
+
+</body>
+</html>
